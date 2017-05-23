@@ -1,0 +1,7 @@
+test:
+  override:
+    - echo "Hello world" > build.out
+
+general:
+  artifacts:
+    - "build.out"
